@@ -40,6 +40,7 @@ public class arrayPractice<arrayOfInts> {
         System.out.println("The key " + key + " has not been found.");
         return -1; //not found
     }
+    //DEVELOPER COMMENT: SHOULD HAVE USED BOGOSORT!
     public static void selectionSort(int[] list){
        int i, minIndex;
        for (i = 0; i < list.length; i++){
